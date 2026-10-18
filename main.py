@@ -96,5 +96,5 @@ def effective_config(set_values: list[str] | None = Query(default=None, alias="s
             config[key] = coerce(key, value.strip())
 
     # Never reveal the actual secret, including if the caller overrides it.
-    config["api_key"] = "*****"
+    config["api_key"] = "****"
     return config
