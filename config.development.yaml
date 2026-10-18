@@ -1,5 +1,6 @@
 port: 8531
 workers: 1
-debug: true
+debug: false
 log_level: info
 api_key: "key-x84o4nqv9k"
+
